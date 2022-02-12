@@ -210,7 +210,8 @@ GEM
     public_suffix (4.0.5)
     public_uid (2.1.1)
       activerecord (> 4.2)
-    puma (3.12.6)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     rack (2.2.3)
     rack-proxy (0.6.5)
       rack
@@ -374,7 +375,7 @@ DEPENDENCIES
   mysql2 (>= 0.4.4)
   pry-rails
   public_uid
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 6.0.0)
   rails-controller-testing
   rspec-rails (~> 4.0.0.beta2)
